@@ -70,8 +70,13 @@ _./tsconfig.json_
 npm install @types/jquery -d
 ```
 
-- Let's port our code to TypeScript, we are going to rename the files *`students.js`* and *`averageService.js`* to _students.**ts**_ and _averageService.**ts**_.
+- In order to get Webpack intellisense, we can install Webpack typings:
 
+```
+npm install @types/webpack-env --save-dev
+```
+
+- Let's port our code to TypeScript, we are going to rename the files *`students.js`* and *`averageService.js`* to _students.**ts**_ and _averageService.**ts**_.
 
 - Let's introduce some TypeScript, in *`students.ts`* we are going to type the
 variables we are using:
